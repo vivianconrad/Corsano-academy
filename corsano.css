@@ -1,0 +1,45 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #AEC5EB;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+}
+
+section.main{
+    width: 50vw;
+    height: 100%;
+    margin: 0 auto;
+    padding: 5% 5%;
+    background-color: #fff;
+    
+}
+
+section.main h1{
+    text-align: center;
+    margin: 0;
+}
+
+
+div.questionsSubsection{
+    margin: 5vw 0;
+}
+
+h1{
+    font-family:'Crimson Pro', serif;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+h2, h3{
+    font-family:'Crimson Pro', serif;
+    font-weight: 400;
+}
+
+p{
+    margin: 1vw 0;
+}
+
+#thankYou{
+    text-align: center;
+}
