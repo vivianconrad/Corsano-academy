@@ -3800,9 +3800,21 @@
                   (p = n.container.style),
                   (n.itemHolders = F =
                     [
-                      { el: n.container.children[0], wrap: 0, index: -1 },
-                      { el: n.container.children[1], wrap: 0, index: -1 },
-                      { el: n.container.children[2], wrap: 0, index: -1 },
+                      {
+                        el: n.container.children[0],
+                        wrap: 0,
+                        index: -1,
+                      },
+                      {
+                        el: n.container.children[1],
+                        wrap: 0,
+                        index: -1,
+                      },
+                      {
+                        el: n.container.children[2],
+                        wrap: 0,
+                        index: -1,
+                      },
                     ]),
                   (F[0].el.style.display = F[2].el.style.display = "none"),
                   Ot(),

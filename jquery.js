@@ -5037,7 +5037,13 @@
           m(t) && ((r = r || n), (n = t), (t = void 0)),
           S.ajax(
             S.extend(
-              { url: e, type: i, dataType: r, data: t, success: n },
+              {
+                url: e,
+                type: i,
+                dataType: r,
+                data: t,
+                success: n,
+              },
               S.isPlainObject(e) && e,
             ),
           )
