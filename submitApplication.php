@@ -8,21 +8,21 @@
 <head>
     <title> Application Submission! </title>
     <link href="corsano.css" type="text/css">
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200;0,300;0,400;0,700;1,200;1,300;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
     </head>
-  
+
 <body>
 
 <section class="main">
     <h1>Corsano Academy Family Information Form</h1>
-    
+
     <p id="thankYou"> Thank you for your information form! Your form will be processed by the faculty of Corsano Academy. An email will be sent to you about the application!</p>
 
 </section>
-        
-        
+
+
 <?php
 function insertDataToDB()
 {
@@ -147,6 +147,3 @@ insertDataToDB();
 
 
 </html>
-       
-
-       

@@ -6,22 +6,22 @@
     <title> Apply for Corsano Academy! </title>
     <script src="test.js"></script>
     <link href="corsano.css" type="text/css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200;0,300;0,400;0,700;1,200;1,300;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
     </head>
-  
+
 <body>
 <section class="main">
     <div class="questions">
     <form method="post" action="submitApplication.php" autocomplete="on">
     <h1>Corsano Academy Family Information Form</h1>
-    
+
     <div class="questionsSubsection" id="Opening">
         <p>Thank you for your interest in Omaha's newest private school. We're a school promoting education that is: project-based, cross-curricular, differentiated, and Christ-centered. We are a school that practices socio-emotional development in order to nurture healthy and happy children. Healthy food and daily movement are integral to our children's success. Our location is TBD, but hoping to be near 132nd and Millard Avenue.</p>
         <p>Please complete the form below to be added to the open enrollment email. </p>
     </div>
-    
+
     <div class="questionsSubsection" id="numKids">
         <div id="numStudents">
             <h3>Number of School-Age Children:</h3>
@@ -29,19 +29,19 @@
                         <datalist id = "Kids">
                             <option value = "1">
                             <option value = "2">
-                            <option value = "3"> 
-                            <option value = "4"> 
+                            <option value = "3">
+                            <option value = "4">
                         </datalist>
         </div>
     </div>
-    
-    <div class="questionsSubsection" id="studentInfo"> 
+
+    <div class="questionsSubsection" id="studentInfo">
         <div id="studentInfoNotes">
             <h2>Student Information</h2>
             <p>Please Note: There is room for each family to enter up to 4 students' information. One student is required. Skip additional questions as necessary.</p>
         </div>
     </div>
-    
+
     <div class="questionsSubsection" id="student1">
         <h3>Student #1</h3>
         <div id="s1FName">
@@ -89,7 +89,7 @@
                 </datalist>
         </div>
     </div>
-    
+
     <div class="questionsSubsection" id="student2">
         <h3>Student #2</h3>
         <div id="s2FName">
@@ -137,7 +137,7 @@
                 </datalist>
         </div>
     </div>
-    
+
     <div class="questionsSubsection" id="student3">
         <h3>Student #3</h3>
         <div id="s3FName">
@@ -185,7 +185,7 @@
                 </datalist>
         </div>
     </div>
-    
+
     <div class="questionsSubsection" id="student4">
         <h3>Student #4</h3>
         <div id="s4FName">
@@ -233,7 +233,7 @@
                 </datalist>
         </div>
     </div>
-    
+
     <div class="questionsSubsection" id="pg">
         <h2>Parent/Guardian Information</h2>
         <div id="parentFName">
@@ -351,9 +351,9 @@
                     <option value = "Maybe">
                 </datalist>
         </div>
-        
+
     </div>
-    
+
     <div class="questionsSubsection" id="submit">
        <input type="submit" id="submitButton" name="submitButton" required>
        <p>Have Questions? Contact (Insert Email Here)</p>
